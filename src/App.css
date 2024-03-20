@@ -1,13 +1,49 @@
+ body{
+    background-color: rgb(250, 245, 239);
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 4em;
+} 
+
  .box{
-  border: 1px solid black;
-  width: 500px;
+  border: 10px solid black;
+  width: 250px;
+  height: 320px;
+  text-align: center;
+  margin: 2em 1em;
+  padding: 1em;
  }
 
  .item-img{
-  width: 400px;
+  width: 150px;
+ }
+
+ .img-mickey{
+    width: 300px;
+    display: flex;
+    justify-content: center;
  }
 
  .main{
   display: flex;
   justify-content: center;
  }
+
+ .button{
+    margin: 0.5em;
+ }
+
+ .Win {
+    border: 10px solid rgb(136, 194, 136);
+ }
+ .Lose{
+    border: 10px solid rgb(241, 160, 160);
+ }
+
+.Tie {
+    border: 10px solid rgb(57, 57, 57);
+}
