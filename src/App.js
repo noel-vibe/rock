@@ -20,13 +20,11 @@ function App() {
   const [userSelect, setUserSelect] = useState(null);
   const [computerSelect, setComputerSelect] = useState(null);
   const [result, setResult] = useState("");
-  //const [computerResult, setComputerResult] = useState("");
   const play = (userChoice) => {
     setUserSelect(choice[userChoice]);
     let computerChoice = randomChoice();
     setComputerSelect(computerChoice);
     setResult(judgement(choice[userChoice], computerChoice));
-   // setComputerResult(ComJudgement(computerChoice,choice[computerChoice]))
   };
 
   const judgement = (user, computer) => {
